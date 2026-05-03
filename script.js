@@ -138,14 +138,14 @@ function generarLista() {
 }
 
 function compartirWhatsApp() {
-  let texto = "🛒 *Lista de Compras - ListaChef*\n\n";
+  let texto = "*LISTA DE COMPRAS*\n\n";
 
-  texto += "📋 *Recetas seleccionadas:*\n";
+  texto += "*Recetas seleccionadas:*\n";
   seleccionadas.forEach(receta => {
     texto += `• ${receta}\n`;
   });
 
-  texto += "\n🧺 *Ingredientes necesarios:*\n";
+  texto += "\n*Ingredientes necesarios:*\n";
   let conteo = {};
   seleccionadas.forEach(receta => {
     recetas[receta].forEach(ing => {
