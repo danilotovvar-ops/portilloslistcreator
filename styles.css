@@ -446,8 +446,59 @@ body::before {
   justify-content: space-between;
 }
 
+.lista-total li::before {
+  display: none;
+}
+
+.ing-label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  cursor: pointer;
+  flex: 1;
+}
+
+.ing-checkbox {
+  appearance: none;
+  -webkit-appearance: none;
+  width: 20px;
+  height: 20px;
+  min-width: 20px;
+  border: 2px solid var(--border);
+  border-radius: 50%;
+  cursor: pointer;
+  position: relative;
+  transition: border-color var(--transition), background var(--transition);
+  margin: 0;
+}
+
+.ing-checkbox:checked {
+  background: var(--accent);
+  border-color: var(--accent);
+}
+
+.ing-checkbox:checked::after {
+  content: '';
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  width: 4px;
+  height: 9px;
+  border: 2px solid #0d1a14;
+  border-top: none;
+  border-left: none;
+  transform: rotate(45deg);
+}
+
+.ing-checkbox:checked + .ing-name {
+  text-decoration: line-through;
+  color: var(--text-muted);
+}
+
 .ing-name {
   flex: 1;
+  transition: color var(--transition), text-decoration var(--transition);
+  user-select: none;
 }
 
 .ing-badge {

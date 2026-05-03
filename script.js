@@ -120,9 +120,9 @@ function generarLista() {
   let listaFinalHTML = `<h2 class="resultado-title">Lista total</h2><ul class="lista-total">`;
   for (let ing in conteo) {
     if (conteo[ing] > 1) {
-      listaFinalHTML += `<li><span class="ing-name">${ing}</span><span class="ing-badge">${conteo[ing]}</span></li>`;
+      listaFinalHTML += `<li><label class="ing-label"><input type="checkbox" class="ing-checkbox"><span class="ing-name">${ing}</span></label><span class="ing-badge">${conteo[ing]}</span></li>`;
     } else {
-      listaFinalHTML += `<li><span class="ing-name">${ing}</span></li>`;
+      listaFinalHTML += `<li><label class="ing-label"><input type="checkbox" class="ing-checkbox"><span class="ing-name">${ing}</span></label></li>`;
     }
   }
   listaFinalHTML += `</ul>`;
