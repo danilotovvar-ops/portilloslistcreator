@@ -82,8 +82,8 @@ body::before {
 /* ★ Nueva tipografía del título: Syne, bold, moderno */
 .logo-text {
   font-family: 'Syne', sans-serif;
-  font-weight: 600;
-  font-size: 1.25rem;
+  font-weight: 400;
+  font-size: 1.5rem;
   letter-spacing: -0.03em;
   color: #ffffff;
 }
