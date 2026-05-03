@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lista de Compras</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+  <!-- Header global -->
+  <header class="app-header">
+    <div class="header-inner">
+      <div class="logo">
+        <span class="logo-icon"></span>
+        <span class="logo-text">PortillosListGenerator</span>
+      </div>
+      <p id="contador">0 recetas seleccionadas</p>
+    </div>
+  </header>
+
+  <!-- Layout principal de dos columnas -->
+  <main class="app-layout">
+
+    <!-- ── Columna izquierda ── -->
+    <aside class="panel-left">
+
+      <!-- Botones arriba -->
+      <div class="action-bar">
+        <button class="btn primary" onclick="generarLista()">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2" />
+            <rect x="9" y="3" width="6" height="4" rx="1" />
+            <path d="M9 12h6M9 16h4" />
+          </svg>
+          Generar lista
+        </button>
+        <button class="btn secondary" onclick="limpiarSeleccion()">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+            stroke-linecap="round" stroke-linejoin="round">
+            <path d="M3 6h18M8 6V4h8v2M19 6l-1 14H6L5 6" />
+          </svg>
+          Limpiar
+        </button>
+      </div>
+
+      <!-- Buscador -->
+      <div class="search-wrapper">
+        <svg class="search-icon" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+          stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="11" cy="11" r="8" />
+          <path d="m21 21-4.35-4.35" />
+        </svg>
+        <input type="text" id="buscador" class="search-input" placeholder="Buscar receta..."
+          oninput="filtrarRecetas(this.value)" />
+        <span id="clear-search" class="clear-search" onclick="clearSearch()" style="display:none">✕</span>
+      </div>
+
+      <!-- Lista de recetas -->
+      <div id="recetas" class="recetas"></div>
+      <p id="no-resultados" class="no-resultados" style="display:none">Sin resultados para tu búsqueda</p>
+
+    </aside>
+
+    <!-- ── Columna derecha ── -->
+    <section class="panel-right">
+      <div id="resultado" class="resultado">
+        <div class="resultado-empty">
+          <div class="empty-icon">📋</div>
+          <p>Selecciona recetas y genera<br>tu lista de ingredientes</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

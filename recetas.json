@@ -1,0 +1,435 @@
+{
+    "Pasta Alfredo": [
+        "pasta",
+        "crema",
+        "mantequilla",
+        "ajo",
+        "queso parmesano"
+    ],
+    "Pollo con verduras": [
+        "pollo",
+        "zanahoria",
+        "brócoli",
+        "cebolla",
+        "ajo"
+    ],
+    "Arroz cantonés": [
+        "arroz",
+        "huevo",
+        "jamón",
+        "cebolla",
+        "salsa de soya"
+    ],
+    "Tacos de carne": [
+        "tortillas",
+        "carne de res",
+        "lechuga",
+        "tomate",
+        "queso"
+    ],
+    "Desayuno típico": [
+        "huevo",
+        "frijoles",
+        "plátano",
+        "queso",
+        "crema"
+    ],
+    "Sopa de tomate": [
+        "tomate",
+        "cebolla",
+        "ajo",
+        "caldo de pollo",
+        "crema",
+        "albahaca"
+    ],
+    "Enchiladas rojas": [
+        "tortillas",
+        "pollo",
+        "salsa roja",
+        "queso",
+        "crema",
+        "cebolla"
+    ],
+    "Quesadillas": [
+        "tortillas",
+        "queso",
+        "chile",
+        "cebolla",
+        "crema"
+    ],
+    "Caldo de res": [
+        "carne de res",
+        "zanahoria",
+        "papa",
+        "ejotes",
+        "elote",
+        "cebolla",
+        "ajo"
+    ],
+    "Frijoles negros guisados": [
+        "frijoles negros",
+        "cebolla",
+        "ajo",
+        "chile",
+        "epazote",
+        "aceite"
+    ],
+    "Guacamole": [
+        "aguacate",
+        "tomate",
+        "cebolla",
+        "chile serrano",
+        "limón",
+        "cilantro",
+        "sal"
+    ],
+    "Chilaquiles rojos": [
+        "tortillas",
+        "salsa roja",
+        "crema",
+        "queso",
+        "cebolla",
+        "huevo"
+    ],
+    "Arroz rojo": [
+        "arroz",
+        "tomate",
+        "cebolla",
+        "ajo",
+        "caldo de pollo",
+        "aceite",
+        "sal"
+    ],
+    "Milanesa de pollo": [
+        "pechuga de pollo",
+        "huevo",
+        "pan molido",
+        "ajo en polvo",
+        "aceite",
+        "limón"
+    ],
+    "Tamales de rajas": [
+        "masa para tamal",
+        "rajas de chile poblano",
+        "queso",
+        "crema",
+        "hojas de maíz"
+    ],
+    "Sopa de fideo": [
+        "fideo",
+        "tomate",
+        "cebolla",
+        "ajo",
+        "caldo de pollo",
+        "aceite"
+    ],
+    "Pozole rojo": [
+        "maíz pozolero",
+        "carne de cerdo",
+        "chile guajillo",
+        "chile ancho",
+        "ajo",
+        "cebolla",
+        "orégano"
+    ],
+    "Bistec encebollado": [
+        "bistec de res",
+        "cebolla",
+        "ajo",
+        "salsa de soya",
+        "aceite",
+        "sal",
+        "pimienta"
+    ],
+    "Huevos rancheros": [
+        "huevo",
+        "salsa roja",
+        "tortillas",
+        "frijoles",
+        "queso",
+        "aceite"
+    ],
+    "Chiles rellenos": [
+        "chile poblano",
+        "queso",
+        "huevo",
+        "tomate",
+        "cebolla",
+        "ajo",
+        "aceite"
+    ],
+    "Pasta con atún": [
+        "pasta",
+        "atún",
+        "tomate",
+        "cebolla",
+        "aceitunas",
+        "aceite de oliva",
+        "ajo"
+    ],
+    "Ensalada César": [
+        "lechuga romana",
+        "queso parmesano",
+        "crutones",
+        "aderezo césar",
+        "limón",
+        "ajo"
+    ],
+    "Pizza margarita": [
+        "masa para pizza",
+        "salsa de tomate",
+        "queso mozzarella",
+        "albahaca",
+        "aceite de oliva"
+    ],
+    "Hamburguesa clásica": [
+        "carne molida",
+        "pan para hamburguesa",
+        "lechuga",
+        "tomate",
+        "cebolla",
+        "queso",
+        "mostaza",
+        "catsup"
+    ],
+    "Salmón al limón": [
+        "filete de salmón",
+        "limón",
+        "mantequilla",
+        "ajo",
+        "eneldo",
+        "sal",
+        "pimienta"
+    ],
+    "Camarones al ajillo": [
+        "camarones",
+        "ajo",
+        "mantequilla",
+        "aceite de oliva",
+        "chile de árbol",
+        "limón",
+        "perejil"
+    ],
+    "Tostadas de pollo": [
+        "tostadas",
+        "pollo",
+        "frijoles",
+        "lechuga",
+        "tomate",
+        "crema",
+        "queso"
+    ],
+    "Sopa de lentejas": [
+        "lentejas",
+        "tomate",
+        "cebolla",
+        "ajo",
+        "chorizo",
+        "zanahoria",
+        "aceite"
+    ],
+    "Pollo a la naranja": [
+        "pollo",
+        "naranja",
+        "ajo",
+        "miel",
+        "salsa de soya",
+        "jengibre",
+        "aceite"
+    ],
+    "Flautas de papa": [
+        "tortillas",
+        "papa",
+        "aceite",
+        "crema",
+        "queso",
+        "lechuga",
+        "salsa"
+    ],
+    "Ceviche de camarón": [
+        "camarón",
+        "limón",
+        "tomate",
+        "cebolla",
+        "chile serrano",
+        "cilantro",
+        "pepino",
+        "aguacate"
+    ],
+    "Mole negro": [
+        "chile mulato",
+        "chile pasilla",
+        "chile ancho",
+        "chocolate",
+        "pollo",
+        "ajo",
+        "cebolla",
+        "ajonjolí",
+        "tortilla"
+    ],
+    "Torta de jamón": [
+        "pan telera",
+        "jamón",
+        "queso",
+        "aguacate",
+        "tomate",
+        "lechuga",
+        "crema",
+        "chile"
+    ],
+    "Espagueti a la boloñesa": [
+        "espagueti",
+        "carne molida",
+        "tomate",
+        "cebolla",
+        "ajo",
+        "zanahoria",
+        "vino tinto",
+        "albahaca"
+    ],
+    "Pollo en salsa verde": [
+        "pollo",
+        "tomatillo",
+        "chile serrano",
+        "ajo",
+        "cebolla",
+        "cilantro",
+        "aceite"
+    ],
+    "Nopales con huevo": [
+        "nopal",
+        "huevo",
+        "tomate",
+        "cebolla",
+        "chile",
+        "cilantro",
+        "aceite",
+        "sal"
+    ],
+    "Arroz con leche": [
+        "arroz",
+        "leche",
+        "azúcar",
+        "canela",
+        "ralladura de limón",
+        "pasas"
+    ],
+    "Pancakes": [
+        "harina",
+        "huevo",
+        "leche",
+        "azúcar",
+        "polvo para hornear",
+        "mantequilla",
+        "vainilla"
+    ],
+    "Atole de guayaba": [
+        "guayaba",
+        "masa",
+        "agua",
+        "azúcar",
+        "canela"
+    ],
+    "Agua de horchata": [
+        "arroz",
+        "canela",
+        "azúcar",
+        "leche",
+        "agua",
+        "vainilla"
+    ],
+    "Pupusas de queso": [
+        "masa de maíz",
+        "queso",
+        "frijoles refritos",
+        "aceite",
+        "repollo",
+        "vinagre"
+    ],
+    "Yuca frita": [
+        "yuca",
+        "aceite",
+        "ajo",
+        "limón",
+        "sal",
+        "crema"
+    ],
+    "Pollo con papas al horno": [
+        "muslos de pollo",
+        "papa",
+        "ajo",
+        "aceite de oliva",
+        "romero",
+        "sal",
+        "pimienta"
+    ],
+    "Verduras salteadas": [
+        "brócoli",
+        "zanahoria",
+        "champiñones",
+        "pimiento",
+        "ajo",
+        "salsa de soya",
+        "aceite de ajonjolí"
+    ],
+    "Crema de elote": [
+        "elote",
+        "crema",
+        "caldo de pollo",
+        "cebolla",
+        "ajo",
+        "mantequilla",
+        "sal"
+    ],
+    "Burritos de frijol": [
+        "tortilla de harina",
+        "frijoles refritos",
+        "queso",
+        "arroz",
+        "crema",
+        "salsa"
+    ],
+    "Tacos de pescado": [
+        "filete de pescado",
+        "tortillas",
+        "repollo",
+        "crema",
+        "chile",
+        "limón",
+        "cilantro"
+    ],
+    "Sopa de champiñones": [
+        "champiñones",
+        "cebolla",
+        "ajo",
+        "crema",
+        "caldo de pollo",
+        "mantequilla",
+        "perejil"
+    ],
+    "Empanadas de pollo": [
+        "masa para empanada",
+        "pollo",
+        "papa",
+        "zanahoria",
+        "cebolla",
+        "ajo",
+        "huevo"
+    ],
+    "Platanos fritos con crema": [
+        "plátano macho",
+        "aceite",
+        "crema",
+        "azúcar",
+        "canela"
+    ],
+    "Taquitos dorados": [
+        "tortillas",
+        "pollo",
+        "aceite",
+        "crema",
+        "lechuga",
+        "queso",
+        "salsa verde"
+    ]
+}
